@@ -6,8 +6,7 @@ const HeroSection: React.FC = () => {
   return (
     <section 
       style={{ backgroundImage: `url(${fondo})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
-      className="bg-cover bg-center h-96 flex items-center justify-center"
-    >
+      className="bg-cover bg-center h-96 flex items-center justify-center">
       <div className="flex flex-col items-center text-center">
         <img className="w-80 h-auto mb-16" src={logo} alt="Logo AlFeSoft" />
         <h2 className="text-4xl font-bold text-white mb-4">Crea Tu Sitio Web Con Nosotros</h2>

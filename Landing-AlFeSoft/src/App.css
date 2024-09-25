@@ -34,14 +34,14 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-  #menu {
-    background-color: #1e1e2b; /* Color de fondo del menú */
+  /* #menu {
+    background-color: #1e1e2b; 
     position: absolute;
-    top: 100%; /* Mueve el menú hacia abajo */
+    top: 100%;
     left: 0;
     width: 100%;
-    z-index: 10; /* Asegúrate de que el menú esté por encima de otros elementos */
-  }
+    z-index: 10; 
+  } */
 }
 
 .card {
